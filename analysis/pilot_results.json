@@ -1,0 +1,24 @@
+{
+  "evaluation_type": "development_proxy_weak_labels",
+  "n": 3000,
+  "accuracy": 0.858,
+  "macro_precision": 0.8663276923677674,
+  "macro_recall": 0.858,
+  "macro_f1": 0.860266243934894,
+  "baselines": [
+    {
+      "baseline": "majority",
+      "accuracy": 0.1,
+      "macro_precision": 0.01,
+      "macro_recall": 0.1,
+      "macro_f1": 0.01818181818181818
+    },
+    {
+      "baseline": "tfidf_logreg",
+      "accuracy": 0.857,
+      "macro_precision": 0.8650579273896553,
+      "macro_recall": 0.857,
+      "macro_f1": 0.859208572861009
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "accuracy": 0.95,
+  "macro_precision": 0.9584688995215311,
+  "macro_recall": 0.9880268199233717,
+  "macro_f1": 0.9713471332043181,
+  "gold_n": 200,
+  "confusion_labels": [
+    "app_store",
+    "apple_id_account",
+    "billing_payment",
+    "complaint",
+    "device_technical",
+    "icloud",
+    "other",
+    "purchase_order",
+    "repair_service",
+    "subscription"
+  ],
+  "confusion_matrix": [
+    [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      19,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      79,
+      0,
+      6,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      70,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "escalation": {
+    "accuracy": 0.6,
+    "macro_precision": 0.6261682242990654,
+    "macro_recall": 0.7687861271676301,
+    "macro_f1": 0.5511165974638088
+  },
+  "escalation_confusion_labels": [
+    "AUTO-HANDLE",
+    "ESCALATE"
+  ],
+  "escalation_confusion_matrix": [
+    [
+      93,
+      80
+    ],
+    [
+      0,
+      27
+    ]
+  ],
+  "avg_top_evidence_score": 1.0000000000000002,
+  "response_checks": {
+    "nonempty_rate": 1.0,
+    "contains_reference_or_link_rate": 0.0,
+    "generic_fallback_rate": 1.0
+  },
+  "baselines": [
+    {
+      "baseline": "majority",
+      "accuracy": 0.435,
+      "macro_precision": 0.0435,
+      "macro_recall": 0.1,
+      "macro_f1": 0.060627177700348436
+    },
+    {
+      "baseline": "keyword_rules",
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0
+    },
+    {
+      "baseline": "tfidf_logreg",
+      "accuracy": 0.95,
+      "macro_precision": 0.9584688995215311,
+      "macro_recall": 0.9880268199233717,
+      "macro_f1": 0.9713471332043181
+    }
+  ],
+  "prediction_file": "analysis/golden_predictions.csv",
+  "llm_judge": {
+    "status": "not_run",
+    "reason": "Requires an LLM API key; harness included for local execution."
+  },
+  "human_agreement": {
+    "status": "not_run",
+    "reason": "Requires human ratings of the judge subset; template included."
+  }
+}

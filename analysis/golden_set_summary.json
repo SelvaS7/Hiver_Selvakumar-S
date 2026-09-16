@@ -1,0 +1,22 @@
+{
+  "golden_rows": 200,
+  "intent_distribution": {
+    "delivery_order": 27,
+    "payments_billing": 23,
+    "other": 20,
+    "returns": 20,
+    "refunds": 20,
+    "prime_subscription": 19,
+    "account_access": 19,
+    "complaint": 19,
+    "product_technical": 17,
+    "order_cancellation": 16
+  },
+  "action_distribution": {
+    "AUTO-HANDLE": 135,
+    "ESCALATE": 65
+  },
+  "review_status_distribution": {
+    "human_reviewed": 200
+  }
+}

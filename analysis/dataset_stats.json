@@ -1,0 +1,21 @@
+{
+  "dataset_rows": 2811774,
+  "amazonhelp_total_tweets": 169840,
+  "amazonhelp_outbound": 169840,
+  "amazon_direct_response_parent_ids": 155445,
+  "amazon_english_pairs_available": 142198,
+  "dev_pairs": 15000,
+  "golden_draft": 200,
+  "taxonomy_counts_dev": {
+    "product_technical": 1500,
+    "other": 1500,
+    "refunds": 1500,
+    "account_access": 1500,
+    "order_cancellation": 1500,
+    "delivery_order": 1500,
+    "complaint": 1500,
+    "payments_billing": 1500,
+    "prime_subscription": 1500,
+    "returns": 1500
+  }
+}
